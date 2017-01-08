@@ -8,35 +8,8 @@ This code provides a FAT32 file system with the following functions implemented 
 	5.	Change Directory	(cmd: cd <DIR>)
 	6.	List 		(cmd: ls)
 	7.	Size 	(cmd: size <FILE>)
-
-The following functions  are unimplemented/faulty:
-
-	1.	Make Directory 	(cmd: mkdir <DIR>)
-	2.	Undelete  	(cmd: undelete)
-	3.	Remove Directory 	(cmd: rmdir <DIR>)
-	4.	Write 	(cmd: write <FILE> <startnum> <data> )
-	5.	Remove	 (cmd: rm <FILE>)
 The source code is implemented in C++ and a makefile is included.
 
-File Summary:
-
-The following files were created for project 3:
-	1.	README.txt 
-		a.	This file!
-	2.	Report.txt 
-		a.	Summary of project creation and implementation.
-
-In the /src directory:
-	1.	utils.h
-	2.	client.cpp
-	3.	makefile
-
-Building the program:
-	1.	change to src directory
-	2.	make
-
-Running the program:
-	1.	./client fat32.img
 
 General Information:
 
@@ -47,5 +20,3 @@ The listed functions cause the program to exit:
 	1.	Make Directory 
 	2.	Undelete 
 	3.	Remove Directory 
-	4.	Write	
-	5.	Remove
